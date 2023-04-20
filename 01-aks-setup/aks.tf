@@ -18,7 +18,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
   linux_profile {
     admin_username = "azuser"
     ssh_key {
-      key_data = file("~/.ssh/id_rsa.pub")
+      key_data = file("C:/Users/rockyyu/istio-aks-demo/01-aks-setup/aks.pub")
     }
   }
 }

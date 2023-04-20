@@ -8,7 +8,7 @@ variable "name" {
 # Create a resource group
 resource "azurerm_resource_group" "rg" {
   name     = var.name
-  location = "chinanorth3"
+  location = "southeastasia"
 }
 
 # Create a virtual network within the resource group
